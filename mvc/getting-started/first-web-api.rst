@@ -121,6 +121,8 @@ This approach makes it easier to unit test your controllers. Unit tests should i
 
 In order to inject the repository into the controller, we need to register it with the DI container. Open the *Startup.cs* file. Add the following using directive:
 
+Using TodoApi.Models;
+
 .. literalinclude:: first-web-api/sample/src/TodoApi/Startup.cs
     :language: c#
     :lines: 4
